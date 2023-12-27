@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    /* Styling for the login page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+    .container {
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #1339f7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #0a42f8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- MetaMask logo -->
+    <img src="MetaMask.jpg" alt="MetaMask Logo" width="250">
+    <h2>Send  Your Digital Wallet</h2>
+    <form>
+      <!-- Wallet Address Field -->
+      <input type="text" id="walletAddress" placeholder="Enter Reservation Address"><br>
+      <!-- Email Address Field -->
+      <input type="text" id="emailAddress" placeholder="Enter Email Address"><br>
+      <!-- Confirmation Button -->
+      <input type="submit" value="Confirm">
+    </form>
+  </div>
+</body>
+</html>
